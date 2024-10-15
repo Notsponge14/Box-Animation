@@ -1,0 +1,33 @@
+button {
+  width: 150px;
+  padding: 40px 0px 40px 0px;
+  background-color: rgb(100, 100, 100);
+  border: none;
+  border-radius: 0px 0px 7px 7px;
+  border-top: rgb(255, 153, 0) solid 5px;
+  margin: 300px 0px 0px 300px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  animation: zuka 0.5s infinite;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+@keyframes zuka{
+
+  0%{rotate: 0deg;transition-timing-function: cubic-bezier(0.6, 0.8, 2);}
+
+  20%{rotate: -8deg;transition-timing-function: cubic-bezier(0.6, 0.8, 2);}
+
+  40%{rotate: 8deg;transition-timing-function: cubic-bezier(0.6, 0.8, 2);}
+
+  60%{rotate: -6deg;transition-timing-function: cubic-bezier(0.6, 0.8, 2);}
+
+  80%{rotate: 6deg;transition-timing-function: cubic-bezier(0.6, 0.8, 2);}
+
+  100%{rotate: 0deg;transition-timing-function: cubic-bezier(0.6, 0.8, 2);}
+}
